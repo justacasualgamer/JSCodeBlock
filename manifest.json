@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "JavaScript Codeblocks",
+    "version": "1.0.0",
+    "description": "Make JavaScript Codeblocks to run them on websites whenever you feel like it.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "knitgh.png"
+    },
+    "icons": {
+        "128": "knitgh.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}
